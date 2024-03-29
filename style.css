@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-1{
+    height: 44px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+#refund{
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    color: antiquewhite;
+}
+
+#old-account{
+    position: absolute;
+    right: 190px;
+    top: 10px;
+    color: antiquewhite;
+}
+
+#new-account{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    color: antiquewhite;
+}
+
+.nav-2{
+    height: 44px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+}
+
+.same{
+    display: inline;
+    position: relative;
+    left: 1040px;
+    top: 10px;
+    margin: 5px;
+}
+
+.box{
+    position: relative;
+    left: 1300px;
+    bottom: 12px;
+    height: 29px;
+    width: 43px;
+    border-radius: 4px;
+}
+
+.box i{
+    padding: 3px;
+    padding-top: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+    padding-right: 25px;
+}
+
+#numbers{
+    position: absolute;
+    color: black;
+    bottom: 10px;
+    left: 30px;
+    font-size: 10px;
+}
+
+.container-1{
+    height: 450px;
+    width: 100%;
+    position: relative;
+    background-color: #3ABEFF;
+}
+
+.container-2{
+    height: 320px;
+    width: 70%;
+    position: absolute;
+    left: 14%;
+    top: 16%;
+    display: flex;
+}
+
+.box-1{
+    height: 240px;
+    width: 400px;
+    position: relative;
+    left: 94px;
+    top: 28px;
+    margin: 10px;
+}
+
+.box-2{
+    height: 240px;
+    width: 400px;
+    position: relative;
+    left: 134px;
+    top: 28px;
+    margin: 10px;
+}
+
+.box-2 img{
+    height: 240px;
+    width: 400px;
+    
+}
+
+#explore{
+    color: rgba(0, 0, 255, 0.575);
+}
+
+#destination{
+    position: relative;
+    top: 4px;
+    color: blue;
+}
+
+#cutting{
+    position: relative;
+    top: 11px;
+    color: blue;
+}
+
+#welcome{
+    position: relative;
+    top: 25px;
+    color: antiquewhite;
+}
+
+#btn{
+    position: relative;
+    top: 40px;
+    padding: 4px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.637);
+}
+
+.items-container{
+    height: 1300px;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 80%;
+    display: flex;
+}
+
+.sale-box-1{
+    height: 144px;
+    width: 33.4%;
+}
+
+.sale-box-1 img{
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    left: 138px;
+    top: 15px;
+}
+
+.sale-box-2{
+    height: 144px;
+    width: 33.4%;
+}
+
+.sale-box-2 img{
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    left: 471px;
+    top: 18px;
+    transform: rotateZ(7deg);
+}
+
+.sale-box-3{
+    height: 144px;
+    width: 33.4%;
+}
+
+.sale-box-3 img{
+    height: 110px;
+    width: 130px;
+    position: absolute;
+    left: 774px;
+    top: 18px;
+    transform: rotateZ(7deg);
+}
+
+.year{
+    margin: 7px;
+}
+
+.help-box-4{
+    height: 114px;
+    width: 25%;
+    position: absolute;
+    top: 160px;
+}
+
+.help-box-4 i{
+    position: absolute;
+    top: 53px;
+    left: 23px;
+}
+
+.help-box-5{
+    height: 114px;
+    width: 25%;
+    position: absolute;
+    top: 160px;
+    left: 25%;
+}
+
+.help-box-5 i{
+    position: absolute;
+    top: 53px;
+    left: 23px;
+}
+
+.help-box-6{
+    height: 114px;
+    width: 25%;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+}
+
+.help-box-6 i{
+    position: absolute;
+    top: 53px;
+    left: 23px;
+}
+
+.help-box-7{
+    height: 114px;
+    width: 25%;
+    position: absolute;
+    top: 160px;
+    left: 75%;
+}
+
+.help-box-7 i{
+    position: absolute;
+    top: 53px;
+    left: 23px;
+}
+.shipping{
+    font-size: 13px;
+    display: block;
+    position: relative;
+    left: 55px;
+    top: 44px;
+    font-weight: 700;
+}
+
+.cardbox_1{
+    height: 430px;
+    width: 28%;
+    position: absolute;
+    top: 26%;
+}
+
+.cardbox_1 img{
+    height: 40%;
+    width: 72%;
+    position: absolute;
+    left: 20px;
+    top: 24px;
+    object-fit: cover;
+}
+
+#smart{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+}
+
+.cardbox_1 i{
+    position: relative;
+    top: 210px;
+    left: 10px;
+    font-size: x-small;
+    color: yellow;
+}
+
+#details{
+    position: relative;
+    top: 214px;
+    left: 6px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#price{
+    font-size: small;
+    color: black;
+    position: absolute;
+    top: 308px;
+    right: 30px;
+    margin-right: 24px;
+}
+
+#stock{
+    position: relative;
+    top: 248px;
+    left: 3px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#quantity{
+    position: relative;
+    top: 258px;
+    left: 3px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#counter{
+    height: 23px;
+    width: 73px;
+    border: 1px solid yellow;
+    display: flex;
+    position: relative;
+    top: 238px;
+    left: 118px;
+}
+
+.plus{
+    font-weight: 700;
+    position: absolute;
+    left: 4px;
+    cursor: pointer;
+}
+
+.one{
+    position: absolute;
+    left: 30px;
+}
+
+.minus{
+    position: absolute;
+    right: 6px;
+    top: 0;
+    cursor: pointer;
+}
+
+.trolly{
+    position: relative;
+    top: 246px;
+    left: 3px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.cardbox_2{
+    height: 430px;
+    width: 28%;
+    position: absolute;
+    top: 26%;
+    left: 36%;
+}
+
+.cardbox_2 img{
+    height: 40%;
+    width: 72%;
+    position: absolute;
+    left: 27px;
+    top: 18px;
+    object-fit: cover;
+}
+
+.cardbox_2 i{
+    position: relative;
+    top: 210px;
+    left: 10px;
+    font-size: x-small;
+    color: yellow;
+}
+
+.cardbox_3{
+    height: 430px;
+    width: 28%;
+    position: absolute;
+    top: 26%;
+    left: 72%;
+}
+
+.cardbox_3 img{
+    height: 130px;
+    width: 150px;
+    position: absolute;
+    left: 27px;
+    top: 18px;
+    object-fit: cover;
+}
+
+.cardbox_3 i{
+    position: relative;
+    top: 210px;
+    left: 10px;
+    font-size: x-small;
+    color: yellow;
+}
+
+.cardbox_4{
+    height: 430px;
+    width: 28%;
+    position: absolute;
+    top: 62%;
+    right: 72%;
+}
+
+.cardbox_4 img{
+    height: 130px;
+    width: 150px;
+    position: absolute;
+    left: 27px;
+    top: 18px;
+    object-fit: cover;
+}
+
+.cardbox_4 i{
+    position: relative;
+    top: 210px;
+    left: 10px;
+    font-size: x-small;
+    color: yellow;
+}
+
+.cardbox_5{
+    height: 430px;
+    width: 28%;
+    position: absolute;
+    top: 62%;
+    left: 72%;
+}
+
+.cardbox_5 img{
+    height: 130px;
+    width: 150px;
+    position: absolute;
+    left: 27px;
+    top: 18px;
+    object-fit: cover;
+}
+
+.cardbox_5 i{
+    position: relative;
+    top: 210px;
+    left: 10px;
+    font-size: x-small;
+    color: yellow;
+}
+
+.cardbox_6{
+    height: 430px;
+    width: 28%;
+    position: absolute;
+    top: 62%;
+    left: 37%;
+}
+
+.cardbox_6 img{
+    height: 130px;
+    width: 150px;
+    position: absolute;
+    left: 27px;
+    top: 18px;
+    object-fit: cover;
+}
+
+.cardbox_6 i{
+    position: relative;
+    top: 210px;
+    left: 10px;
+    font-size: x-small;
+    color: yellow;
+}
+
+#dhruv{
+    position: relative;
+    top: 300px;
+    right: 369px;
+}
+
+.why-this{
+    height: 670px;
+    width: 60%;
+    position: relative;
+    top: 1400px;
+    left: 310px;
+    display: flex;
+}
+
+#hub{
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+#information{
+    position: absolute;
+}
+
+#information img{
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    left: 350px;
+    top: 190px;
+}
+
+#first{
+    height: 150px;
+    width: 240px;
+    position: absolute;
+    top: 140px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#second{
+    height: 150px;
+    width: 240px;
+    position: absolute;
+    top: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#third{
+    height: 150px;
+    width: 240px;
+    position: absolute;
+    top: 460px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fourth{
+    height: 150px;
+    width: 240px;
+    position: absolute;
+    top: 140px;
+    left: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fivth{
+    height: 150px;
+    width: 240px;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sixth{
+    height: 150px;
+    width: 240px;
+    position: absolute;
+    top: 460px;
+    left: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+    position: relative;
+    top: 1430px;
+    width: 100%;
+    background-color: black;
+    height: 230px; /* Set the height of your footer */
+}
+
+#store{
+    color: antiquewhite;
+    position: absolute;
+    left: 90px;
+    top: 100px;
+}
+
+#ul-1{
+    color: antiquewhite;
+    position: absolute;
+    left: 590px;
+    top: 20px;
+    list-style: none;
+    font-size: 23px;
+    gap: 5px;
+}
+
+#ul-1 li{
+    list-style: none;
+    font-size: 16px;
+    margin: 10px;
+    position: relative;
+    right: 7px;
+}
+
+#ul-2{
+    color: antiquewhite;
+    position: absolute;
+    left: 790px;
+    top: 20px;
+    list-style: none;
+    font-size: 23px;
+    gap: 5px;
+}
+
+#ul-2 li{
+    list-style: none;
+    font-size: 16px;
+    margin: 10px;
+    position: relative;
+    right: 7px;
+}
